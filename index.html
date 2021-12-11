@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOC TOC</title>
+    <link rel="stylesheet" href="style/stile.css">
+</head>
+<body onload="carica()">
+<div class="res">
+    <div class="barra">
+        <div class="logo">
+            <h2>TOC TOC</h2>
+        </div>
+        <div class="info">
+            <h2 id="caramella">Caramelle:</h2>
+        </div>
+    </div>
+
+    <div class="gioco">
+        <div class="mappa">
+            <div class="case_datas">
+                <div class="dati_generali">
+                    <div class="citta_nome">
+                        <p id="citta">Città: </p>
+                    </div>
+
+                
+                <div class="case" id="case">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="opzioni">
+            <div id="informa">
+                <h2>Seleziona un elemento</h2>
+                </div>
+            <div id="elementi">
+                <h2 id="nome_l"></h2>
+                <div class="blocco_l">
+                    <h3 id="scritta_l"></h3>
+                    <h3 id="caramelle_l"></h3> 
+                </div>
+                <div class="rischio_l">
+                    <abbr title="Indica il rischio di perdere le caramelle!"><h3 id="scrittarisc_l"></h3></abbr>
+                    <h3 id="valore"></h3>
+                </div>
+                <div id="gbutton">
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="risultato">
+    <div class="data_res">
+        <h2 id="msg"></h2>
+        <p id="msg_notes"></p>
+    </div>
+    <button onclick="chiudi()">CHIUDI</button>
+</div>
+</div>
+<script src="script/generazione.js"></script>
+</body>
+</html>

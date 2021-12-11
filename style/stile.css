@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Readex+Pro&display=swap');
+body{
+    background-color: #1f1f1f;
+    color:white;
+    font-family: 'Readex Pro', sans-serif;
+    letter-spacing: 2px;
+}
+.barra{
+    display: flex;
+    background-color: rgb(224, 158, 35);
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 98%;
+    height: 70px;
+    padding-left: 2%;
+}
+.logo{
+    display:flex;
+    justify-content: left;
+    position:absolute;
+}
+.info{
+    text-align: right;
+    justify-content: center;
+    position:relative;
+    width:100%;
+    padding-right: 10px;
+}
+.gioco{
+    background-color:transparent;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top:70px;
+    left:0%;
+    display:flex;
+    cursor: pointer;
+}
+.mappa{
+    position:relative;
+    background-color:transparent;
+    flex:2;
+    width: 100%;
+    height: 100%;
+    justify-content:flex-start;
+}
+.citta_nome{
+padding-left:2%;
+}
+#opzioni{
+    display: flex;
+    position:relative;
+    background-color:rgb(138, 146, 151);
+    flex:2;
+    width:0%;
+    height: 100%;
+    flex-direction: column;
+}
+#nome_l{
+    width:100%;
+    position: relative;
+    text-align:center;
+    justify-content:center;
+    font-size:200%;
+}
+#opzioni.allarga{
+flex:3;
+}
+.blocco_l{
+    border-left:10px green solid;
+    position: relative;
+    font-size: 130%;
+}
+#elementi{
+    padding-left:4%;
+}
+#scritta_l{
+    padding-left:2%;
+}
+#informa{
+    display: flex;
+    text-align:center;
+    position: relative;
+    width:100%;
+    justify-content:center;
+}
+.case_datas{
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+    left:0%;
+    position:relative;
+}
+.dati_generali{
+    font-size: 150%;
+    width:100%;
+    height:100%;
+    left:0%;
+    position:relative;
+}
+.dati_generali>p{
+    padding:1%;
+}
+#item{
+    background-color:rgb(41, 149, 182);
+    width:100%;
+    height: 10%;
+    position:relative;
+    display: flex;
+    flex: 100%;
+    left:0%;
+    flex-direction: row;
+}
+#item:hover{
+    background-color:rgb(40, 172, 212);
+}
+#item>b{
+    padding:1%;
+    justify-content:left;
+    position:relative;
+    text-align: left;
+    width:100%;
+}
+#item>apri{
+    font-size: 200%;
+    padding-right:4%;
+}
+#caramelle_l{
+    padding-left:2%;
+}
+.rischio_l{
+    padding-left: 2%;
+    border-left: 10px solid red;
+}
+#scrittarisc_l{
+    font-size:130%;
+}
+#gbutton{
+    width:100%;
+    position:relative;
+    justify-content:center;
+    text-align:center;
+    font-family: 'Readex Pro', sans-serif;
+    color:white;
+}
+#gbutton>button{
+    background-color:orangered;
+    border: 1px solid transparent;
+    color:white;
+    font: bold;
+    padding:2%;
+    border-radius: 25px;
+    cursor:pointer;
+    visibility: hidden;
+}
+#toc.activated{
+    visibility:visible;
+}
+#res{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+#risultato{
+    visibility:hidden;
+    display: flex;
+    position:fixed;
+    width:50%;
+    height: 50%;
+    z-index: 1;
+    overflow: auto; 
+    background-color: #ffffff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    COLOR:black;
+    margin: auto;
+    border-radius: 30px;
+    border:2px black solid;
+}
+#risultato>button{
+    background-color:red;
+    color:white;
+    border:2px transparent solid;
+}
+#risultato.mostra{
+    visibility:visible;
+}
+.data_res{
+    width:100%;
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    font-size: 120%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 2.5%;
+    flex-direction: column;
+}
+#risultato>button{
+    cursor: pointer;
+}
